@@ -1,0 +1,117 @@
+@import 'reset.css';
+
+body {
+  position: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+#greeting {
+  padding: 10px 0;
+}
+
+
+#first-div {
+  width: 100%;
+  padding: 50px;
+}
+
+#second-div {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 50px;
+  z-index: 0;
+}
+
+#interface {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  padding: 60 0 0 0;
+}
+
+#interface {
+  margin: 20px 0px;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 10px 0;
+}
+
+h2 {
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+img {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  left: 55%;
+  top: 20%;
+  z-index: 1;
+}
+
+.jangdo_black {
+  background-color: #424753;
+}
+
+.jangdo_yellow {
+  background-color: #FFAC00;
+}
+
+.jangdo_white {
+  background-color: white;
+}
+
+#todo-form {
+  padding: 20px 0;
+}
+
+#todo-list {
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.chohyung_red {
+  background-color: #C4575A;
+}
+
+.chohyung_blue {
+  background-color: #3663BA;
+}
+
+.chohyung_white {
+  background-color: white;
+}
+
+#line {
+  padding: 2px 0;
+}
+
+.jangdo_clock {
+  background-color: #424753;
+  border-radius: 10px;
+  border: solde white 2px;
+  color: white;
+}
+
+.chohyung_clock {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: solid #C4575A 2px;
+}
+
+#weather {
+  padding: 20px 0;
+}
